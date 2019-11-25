@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="project_home.css">
+	<title> Selamat Datang di E-learning FASILKOM </title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js">
+	</script>
+	
+</head>
+<body>
+
+<header>
+	<h1>E-LEARNING FASILKOM</h1>
+	<select name="bahasa">
+		<option value="english">English (EN)</option>
+		<option value="bahasa indonesia">Bahasa Indonesia (IND)</option>
+	</select>
+	<h2>Guest</h2>
+</header>
+
+<nav>
+    <ul>
+        <li><b><a href="index.html">HOME</a></li></b>
+        <li><b><a href="about_1.html">ABOUT</a></li></b>
+
+    </ul>
+</nav>
+
+		<br><br><div class="badan">
+
+			<div class="content">
+
+				<br><br><br><div align="center"><div class="border">
+
+				<br><br>
+	
+				<div align="left"><label><b>USERNAME</b></label><br></div><br>
+				<input type="text" class="form_login" placeholder="Username" id="Username"><br><br>
+		
+				<div align="left"><label><b>PASSWORD</b></label><br></div><br>
+				<input type="password" class="form_login" placeholder="Password" id="Password"><br><br>
+
+				<a href="h.html"><input type="submit" class="login_button" value="LOGIN" id="xx"></a>
+				<script type="text/javascript">
+				$(document).ready(function(){
+					$("#xx").click(function(){
+						alert("Apakah Anda yakin data yang Anda masukkan sudah benar?");
+					});
+				});
+				</script>
+
+				</div>
+				
+			</div>
+
+		</div>
+
+</body>
+
+</html>
